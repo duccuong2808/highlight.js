@@ -23,7 +23,13 @@
   "main": "./lib/index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha test/",
-    "test-browser": "./node_modules/.bin/mocha test/browser/"
+    "test-browser": "./node_modules/.bin/mocha test/browser/",
+    "build": ["node tools/build.js -n",
+              "bash coffeescript cpp css",
+              "dockerfile erb haml java ",
+              "javascript json php python",
+              "ruby shell sql typescript xml yaml"
+            ]
   },
   "engines": {
     "node": "*"

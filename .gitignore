@@ -1,5 +1,6 @@
 .DS_Store
-build
+build/demo
+build/docs
 docs/_build
 .idea/
 __pycache__

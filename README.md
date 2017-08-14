@@ -1,3 +1,18 @@
+# I. My custom
+# Description
+
+I want to build a `highlight.pack.js` custom. It only include some necessary languages.
+
+Languages included in custom file is:
+```quote
+  bash coffeescript cpp css
+  dockerfile erb haml java
+  javascript json php python
+  ruby shell sql typescript xml yaml
+```
+Run `npm run build` to build.
+---------------------------
+# II. Origin
 # Highlight.js
 
 [![Build Status](https://travis-ci.org/isagalaev/highlight.js.svg?branch=master)](https://travis-ci.org/isagalaev/highlight.js)
