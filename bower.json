@@ -1,0 +1,25 @@
+{
+  "name": "highlight.js-notepad",
+  "description": "It's personal package. It was created to serve my own project.",
+  "main": [
+    "./build/highlight.pack.js",
+    "./src/styles/github.css"
+  ],
+  "authors": [
+    "NDC"
+  ],
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "notepad",
+    "highlight"
+  ],
+  "homepage": "https://github.com/duccuong2808/highlight.js-notepad",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
